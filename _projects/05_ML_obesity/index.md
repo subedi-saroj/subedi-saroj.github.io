@@ -23,7 +23,7 @@ With obesity rising as a global health crisis, early risk detection is crucial f
 - Trained three models: Random Forest, KNN, and CNN, including hyperparameter tuning via Grid Search and Randomized Search.
 - Built a **Streamlit web app** for user interaction with the trained model.
 {% include image-gallery.html images="method.jpg" height="400" %}
-{% include image-gallery.html images="output.png" height="500" %}
+{% include image-gallery.html images="output.png" height="1000" %}
 <br>
 
 ## Key Results
@@ -31,4 +31,4 @@ With obesity rising as a global health crisis, early risk detection is crucial f
 - Identified top predictive features: frequency of vegetable consumption, number of main meals, height, weight, and screen time.
 - The Streamlit app allowed users to input lifestyle parameters and receive obesity risk classification in real-time.
 {% include image-gallery.html images="perf_comp.jpg" height="500" %}
-{% include image-gallery.html images="gui.jpg" height="500" %}
+{% include image-gallery.html images="gui.jpg" height="1000" %}
