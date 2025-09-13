@@ -10,5 +10,5 @@ skills:
 - Motion control
 - Arduino
 - material optimization
-main-image: /figure1.jpg 
+main-image: /main_fig.jpg 
 ---
