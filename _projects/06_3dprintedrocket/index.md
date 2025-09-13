@@ -11,28 +11,30 @@ main-image: /assets/images/projects/main.jpg
 ---
 ## Background
 Seed dispersal in hazardous or inaccessible environments (e.g., post-wildfire zones, steep slopes) is difficult to achieve using conventional replantation methods. This project aimed to design an **air-powered, biodegradable seed rocket** to deliver seeds over long distances with minimal environmental impact.
-
+<br>
 ## Design
 - **Nose Cone (SLA, Tough 2000):** parabolic profile for low drag and weight balancing.
 - **Seed Payload (SLS, PA12 Nylon):** complex internal geometry with no supports required.
-- **Fins & Launching Base (FDM, ABS):** self-supported geometry, integrated for stability.
+- **Fins & Launching Base (FDM, ABS):** self-supported geometry, integrated for stability. <br>
 
-{% include image-gallery.html images="rocket.jpg" height="500" %}
-{% include image-gallery.html images="fdm.jpg" height="500" %}
-{% include image-gallery.html images="sls.jpg" height="500" %}
-{% include image-gallery.html images="sla.jpg" height="500" %}
-
+{% include image-gallery.html images="rocket.jpg" height="500" %}<br>
+{% include image-gallery.html images="fdm.jpg" height="500" %}<br>
+{% include image-gallery.html images="sls.jpg" height="500" %}<br>
+{% include image-gallery.html images="sla.jpg" height="400" %}
+<br>
 ## Delivery Method
 - **Spiral screw-style payload release** for passive mid-flight seed ejection.
 - Optimized fin shape (clipped delta with rounded leading edge, wedge trailing edge) to maximize stability.
-
+<br>
 ## Cost & Time Summary
-| Part             | Process | Material       | Print Time       | Cost   |
-|------------------|---------|----------------|------------|--------|
-| Fins & Base      | FDM     | ABS            | 9 hr 15 m  | $144.10|
-| Nose Cone        | SLA     | Tough 2000     | 3 hr 23 m  | $17.29 |
-| Payload Section  | SLS     | PA12 Nylon     | 8 hr 30 m  | $159.26|
-| **Total**        | —       | —              | ~21 hr     | $320.65|
+
+| Part            | Process | Material    | Print Time | Cost    |
+|-----------------|---------|-------------|------------|---------|
+| Fins & Base     | FDM     | ABS         | 9 hr 15 m  | $144.10 |
+| Nose Cone       | SLA     | Tough 2000  | 3 hr 23 m  | $17.29  |
+| Payload Section | SLS     | PA12 Nylon  | 8 hr 30 m  | $159.26 |
+| **Total**       | —       | —           | ~21 hr     | $320.65 |
+<br>
 
 ## Simulation
 - Simulated using open-source rocket flight software.  
