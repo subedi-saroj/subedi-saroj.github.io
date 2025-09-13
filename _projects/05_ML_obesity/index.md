@@ -1,31 +1,35 @@
 ---
 layout: post
-title: Investigation of Powder Characteristics and Microstructural Evolution of Laser Printed Ti-15Mo Samples Prepared by Ball Milling
-description:  Investigated the processing of Ti-15Mo alloy using ball milling and Laser Powder Bed Fusion (LPBF). Characterized powder properties (SEM, LECO, optical microscopy), optimized printing parameters, and analyzed printed parts for porosity, microstructure, and hardness. Achieved improved understanding of powder spreadability, oxygen contamination control, and parameter effects on density and hardness of Ti-15Mo components.
-skills: 
-- Laser Powder Bed Fusion (LPBF)
-- Powder mettalurgy (Ball Milling)
-- SEM/EDS & Optical Microscopy
-- Materials Characterization (LECO, Microtrac)
-- Microhardness Testing
-- Parameter Optimization
-main-image: /expfig.jpg 
+title: Obesity Risk Classification Using Machine Learning
+description:  Built predictive models to classify obesity risk into eight categories using lifestyle and genetic factors. Compared Random Forest, KNN, and CNN models on Kaggle health datasets from Mexico, Peru, and Colombia, achieving up to 95% accuracy. Developed a Streamlit app to enable interactive user predictions.
+skills:
+  - Machine Learning (Random Forest, KNN, CNN)
+  - Python (Scikit-learn, TensorFlow, PyTorch, Pandas, Seaborn)
+  - Data Preprocessing & Feature Engineering
+  - Exploratory Data Analysis & Visualization
+  - Hyperparameter Optimization
+main-image: /main.jpg 
 ---
 
 ---
-## This project explored Ti-15Mo as a potential alloy for biomedical and industrial applications due to its strength-to-weight ratio, corrosion resistance, and biocompatibility. The objective was to prepare fine, printable powders via ball milling and investigate their processability in Laser Powder Bed Fusion (LPBF).
+## Background
+With obesity rising as a global health crisis, early risk detection is crucial for prevention. This project aimed to leverage machine learning to predict obesity risk levels based on lifestyle and genetic factors, providing a proactive healthcare tool.
 <br>
 
 ## Methods
-- Ball milled Ti-15Mo powders under different argon-protected conditions and surfactant variations.
-- Characterized powders using SEM/EDS, optical microscopy, LECO O₂/H₂ analysis, and Microtrac particle size distribution.
-- Performed LPBF cube builds with varying power, scan speed, and hatch spacing.
-- Analyzed microstructure, porosity, and hardness of printed samples.
-{% include image-gallery.html images="expfig.jpg" height="600" %}<br>
+- Collected and cleaned Kaggle dataset (populations from Mexico, Peru, Colombia).
+- Performed exploratory data analysis (EDA) with correlation heatmaps, histograms, and feature importance analysis.
+- Preprocessed data (encoding categorical features, scaling, handling missing values).
+- Trained three models: Random Forest, KNN, and CNN, including hyperparameter tuning via Grid Search and Randomized Search.
+- Built a **Streamlit web app** for user interaction with the trained model.
+{% include image-gallery.html images="method.jpg" height="400" %}
+{% include image-gallery.html images="output.png" height="500" %}
 
 ## Key Results
-- Extended ball milling (40 hrs, 20:1 ball-to-powder ratio) produced spheroidal powders with improved spreadability.
-- Optimal LPBF parameters (95 W, 80 µm hatch spacing, 800 mm/s, 25 µm layer thickness) yielded ~99% dense cubes with reduced porosity.
-- Ti-15Mo printed parts demonstrated hardness up to **394 ± 66 HV**, outperforming Cp-Ti and Ti-64 samples.
-{% include image-gallery.html images="figure2.jpg" height="400" %} <br>
+- **Random Forest** achieved the highest accuracy (~95%), outperforming CNN (~86%) and KNN (~80%).
+- Identified top predictive features: frequency of vegetable consumption, number of main meals, height, weight, and screen time.
+- The Streamlit app allowed users to input lifestyle parameters and receive obesity risk classification in real-time.
+{% include image-gallery.html images="perf_comp.jpg" height="500" %}
+{% include image-gallery.html images="gui.jpg" height="500" %}
+
 {% include image-gallery.html images="figure3.jpg" height="800" %} <br>
