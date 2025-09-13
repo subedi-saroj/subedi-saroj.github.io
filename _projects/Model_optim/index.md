@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Irradiation Model and Optimization for DLP Printing
