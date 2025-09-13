@@ -1,9 +1,14 @@
 ---
 layout: post
-title: project title
-description:  short description of the project
+title: Automated Grayscale Modulation System for High-Precision DLP 3D Printing
+description:  Developed an automated grayscale calibration system that corrects non-uniform light distribution in DLP 3D printing. By integrating sensors, motion control, and pixel-level image correction, the solution improved dimensional accuracy and process consistency, enabling more reliable production of high-precision polymer parts.
 skills: 
-- skill 1
-- skill 2
-main-image: /project.webp 
+- Mechanical design and assembly
+- sensor integration
+- LabVIEW
+- MATLAB
+- Motion control
+- Arduino
+- material optimization
+main-image: /figure1.jpg 
 ---
