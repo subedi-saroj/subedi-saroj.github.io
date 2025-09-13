@@ -7,7 +7,7 @@ skills:
   - Rocket Design & Simulation
   - Materials Selection (ABS, Tough 2000, PA12 Nylon)
   - Prototyping & Testing
-main-image: /assets/images/projects/main.jpg
+main-image: /main.jpg
 ---
 ## Background
 Seed dispersal in hazardous or inaccessible environments (e.g., post-wildfire zones, steep slopes) is difficult to achieve using conventional replantation methods. This project aimed to design an **air-powered, biodegradable seed rocket** to deliver seeds over long distances with minimal environmental impact.
@@ -27,7 +27,6 @@ Seed dispersal in hazardous or inaccessible environments (e.g., post-wildfire zo
 - Optimized fin shape (clipped delta with rounded leading edge, wedge trailing edge) to maximize stability.
 <br>
 ## Cost & Time Summary
-
 | Part            | Process | Material    | Print Time | Cost    |
 |-----------------|---------|-------------|------------|---------|
 | Fins & Base     | FDM     | ABS         | 9 hr 15 m  | $144.10 |
