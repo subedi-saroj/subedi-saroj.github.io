@@ -12,6 +12,7 @@ main-image: /main.jpg
 ## Background
 Seed dispersal in hazardous or inaccessible environments (e.g., post-wildfire zones, steep slopes) is difficult to achieve using conventional replantation methods. This project aimed to design an **air-powered, biodegradable seed rocket** to deliver seeds over long distances with minimal environmental impact.
 <br>
+
 ## Design
 - **Nose Cone (SLA, Tough 2000):** parabolic profile for low drag and weight balancing.
 - **Seed Payload (SLS, PA12 Nylon):** complex internal geometry with no supports required.
@@ -22,10 +23,12 @@ Seed dispersal in hazardous or inaccessible environments (e.g., post-wildfire zo
 {% include image-gallery.html images="sls.jpg" height="500" %}<br>
 {% include image-gallery.html images="sla.jpg" height="400" %}
 <br>
+
 ## Delivery Method
 - **Spiral screw-style payload release** for passive mid-flight seed ejection.
 - Optimized fin shape (clipped delta with rounded leading edge, wedge trailing edge) to maximize stability.
 <br>
+
 ## Cost & Time Summary
 | Part            | Process | Material    | Print Time | Cost    |
 |-----------------|---------|-------------|------------|---------|
