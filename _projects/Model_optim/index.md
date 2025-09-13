@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Irradiation Model and Optimization for DLP Printing
-description:  Developed a physics-based irradiation model to simulate voxel-level energy distribution in DLP 3D printing, enabling prediction of cured geometry and
-crosslinking density. Implemented a optimization framework to minimize overcuring for dimensional accuracy, maximizing energy for mechanical strength,
-improving both precision and reliability in printed parts.
+title: Irradiation Model and Optimization for DLP Printing 
+description: Developed a physics-based irradiation model to simula
 skills: 
 - Mechanical design and assembly
 - LabVIEW
