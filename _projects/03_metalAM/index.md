@@ -28,4 +28,4 @@ main-image: /expfig.jpg
 - Optimal LPBF parameters (95 W, 80 µm hatch spacing, 800 mm/s, 25 µm layer thickness) yielded ~99% dense cubes with reduced porosity.
 - Ti-15Mo printed parts demonstrated hardness up to **394 ± 66 HV**, outperforming Cp-Ti and Ti-64 samples.
 {% include image-gallery.html images="figure2.jpg" height="400" %} <br>
-{% include image-gallery.html images="figure3.jpg" height="400" %} <br>
+{% include image-gallery.html images="figure3.jpg" height="600" %} <br>
