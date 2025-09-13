@@ -17,9 +17,17 @@
                             </a>
                         
                             {% when 'github' %}
-                                <a href="https://github.com/{{ site.external-links[platform] }}/" target="_blank">
-                                    <i class="fa-brands fa-github"></i>
+                              {% assign gh = site.external-links[platform] | default: '' %}
+                              {% if gh contains '://' %}
+                                <a href="{{ gh }}" target="_blank" rel="noopener">
+                                  <i class="fa-brands fa-github"></i>
                                 </a>
+                              {% else %}
+                                <a href="https://github.com/{{ gh }}/" target="_blank" rel="noopener">
+                                  <i class="fa-brands fa-github"></i>
+                                </a>
+                              {% endif %}
+
                             
                             {% when 'stackoverflow' %}
                                 <a href="https://stackoverflow.com/users/{{ site.external-links[platform] }}/" target="_blank">
