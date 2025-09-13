@@ -6,6 +6,7 @@
 # feature for the data you need to update frequently.
 
 # Main Page Setup
+
 title: Saroj Subedi's Portfolio # This is what shows up in the tab of the browser
 
 
@@ -18,21 +19,22 @@ description: >- # dont remove this line. this will ignore all new lines until th
   3D printing. My research focuses on developing state-of-the-art static and scrolling DLP systems, optimizing energy input for dimensional accuracy, mechanical strength and 
   fabricating functional polymeric materials with potentials for bio-medical, healthcare, soft robotics, electronic devices and many other applications. With experience spanning system design,
   process optimization, and multiphysics simulation, I bridge academic innovation with practical engineering solutions for industry applications.
-  Currently looking for full-time roles starting mid-2026. 
-   
+  Currently looking for full-time roles starting mid-2026.
+
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: /assets/images/profile-image/image.jpg
+profile_image: ./assets/images/profile-image/image.jpg
 
 
 # Link your resume
 # You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
 resume-url: /assets/resume/Academic_CV.pdf
 
+
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: linksarojsubedi    # https://www.linkedin.com/in/linksarojsubedi/ 
-  github: https://scholar.google.com/citations?user=8HfdPfgAAAAJ&hl=en&authuser=1      # https://github.com/{your url slug} 
+  linkedin: linksarojsubedi    # https://www.linkedin.com/in/{your url slug} 
+  github: https://scholar.google.com/citations?user=8HfdPfgAAAAJ&hl=en&authuser=1
   
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
@@ -76,7 +78,6 @@ skills:
     - ROS2
     - Troubleshooting and Calibration
     - Optical Imaging and Microscopy
-
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
 formspree-key:   https://formspree.io/f/xblabwpe
