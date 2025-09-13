@@ -33,7 +33,7 @@ resume-url: /assets/resume/SAROJ_SUBEDI_resume_8-25-2025.pdf
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
   linkedin: linksarojsubedi    # https://www.linkedin.com/in/linksarojsubedi/ 
-  google_scholar: 8HfdPfgAAAAJ     # https://github.com/{your url slug}
+  github: https://scholar.google.com/citations?user=8HfdPfgAAAAJ&hl=en&authuser=1      # https://github.com/{your url slug} 
   
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
