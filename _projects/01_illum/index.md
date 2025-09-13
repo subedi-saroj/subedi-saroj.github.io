@@ -14,7 +14,8 @@ main-image: /main_fig.jpg
 ---
 
 ---
-## Designed and Developed/Assembled state-of-the-art DLP system along with the motion control and sensors integrated <br>
+## Designed and Developed/Assembled state-of-the-art DLP system along with the motion control and sensors integrated 
+<br>
 
 ## Developed the workflow using LabVIEW to acquire grayscale mask automatically
 {% include image-gallery.html images="grayscale mask process.jpg" height="600" %}<br>
