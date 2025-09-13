@@ -31,4 +31,4 @@ Post-processing in Stereolithography (SLA) 3D printing is still heavily manual, 
 - Successfully prototyped and tested custom grippers capable of handling SLA-printed dental parts.
 - Established groundwork for integrating dual-robot systems and vision-based gripping.
 
-{% include image-gallery.html images="main.jpg" height="400" %} <br>
+{% include image-gallery.html images="main.jpg" height="800" %} <br>
