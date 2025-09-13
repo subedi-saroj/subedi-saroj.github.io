@@ -24,6 +24,7 @@ With obesity rising as a global health crisis, early risk detection is crucial f
 - Built a **Streamlit web app** for user interaction with the trained model.
 {% include image-gallery.html images="method.jpg" height="400" %}
 {% include image-gallery.html images="output.png" height="500" %}
+<br>
 
 ## Key Results
 - **Random Forest** achieved the highest accuracy (~95%), outperforming CNN (~86%) and KNN (~80%).
@@ -31,5 +32,3 @@ With obesity rising as a global health crisis, early risk detection is crucial f
 - The Streamlit app allowed users to input lifestyle parameters and receive obesity risk classification in real-time.
 {% include image-gallery.html images="perf_comp.jpg" height="500" %}
 {% include image-gallery.html images="gui.jpg" height="500" %}
-
-{% include image-gallery.html images="figure3.jpg" height="800" %} <br>
