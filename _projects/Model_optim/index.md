@@ -10,20 +10,16 @@ skills:
 - LabVIEW
 - MATLAB
 - Optimization tools
-main-image: /main_fig.jpg 
+main-image: /simulation_prediction.jpg 
 ---
 
 ---
-## Designed and Developed/Assembled state-of-the-art DLP system along with the motion control and sensors integrated <br>
+## Developed the physics based irradiation model to predict the curing and crosslinking behavior with inputs like, 2D grayscale images, material properties for 3D printing <br>
 
-## Developed the workflow using LabVIEW to acquire grayscale mask automatically
-{% include image-gallery.html images="grayscale mask process.jpg" height="600" %}<br>
+## Model prediction very close to the printed features
+{% include image-gallery.html images="simulation_prediction.jpg" height="400" %}<br>
 
-## Non-uniform illumination at different power levels and acquired grayscale masks
-{% include image-gallery.html images="masks.jpg" height="400" %} <br>
+## T-shape re-entrant textures design, 3D printed and model prediction
+{% include image-gallery.html images="for_port2.jpg" height="400" %} <br>
 
-## Main result showing improvement in uniformity of dimensions
-{% include image-gallery.html images="Figure 8 JMNM.jpg" height="800" %} <br>
-
-## For more details
-Published work: [Automated Grayscale Modulation to Enhance DLP Fabrication Accuracy](https://asmedigitalcollection.asme.org/micronanomanufacturing/article-abstract/13/2/021001/1209780/Automated-Grayscale-Modulation-to-Enhance-Digital)
+## WORK IN PROGRESS.....Stay tuned for published proof
